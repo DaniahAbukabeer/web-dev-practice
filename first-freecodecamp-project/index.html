@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1 id="title">Pet Survey</h1>
+<p id="description">this survey is meant to get to know more about your lovely pet :)</p>
+<form id="survey-form" method="post">
+     <label id="name-label" for="name">Name <input required type="text" name="name" id="name" placeholder="Enter your pet's name"></label>
+     <label id="email-label" for="email">Email <input required type="email" name="email" id="email" placeholder="Enter your email"></label>
+     <label id="number-label" for="number">Number <input min="0" max="20" type="number" name="number" id="number" placeholder="Enter your pet's age"></label>
+     <label id="pet-type-label" for="pet-type">
+        what is your pet type?
+         <select name="pet-type" id="dropdown">
+             <option selected value="cat">cat</option>
+             <option value="dog">dog</option>
+             <option value="bird">bird</option>
+             <option value="fish">fish</option>
+             <option value="turtle">turtle</option>
+             <option value="others">others</option>
+            </select>
+        </label>
+       <label for="femal">
+           <input type="radio" value="femal" name="gender" id="femal">
+           Femal
+       </label>
+       <label for="male">
+           <input type="radio" value="male" name="gender" id="male">
+           Male
+       </label>
+       <label>What do you like most about your pet?</label>
+       <label for="cute"><input type="checkbox" value="cute" id="cute">cute</label>
+       <label for="fluffy"><input type="checkbox" value="fluffy"  id="fluffy">fluffy</label>
+       <label for="silly"><input type="checkbox" value="silly" id="silly">silly</label>
+       <label for="stupid"><input type="checkbox" value="stupid" id="stupid">stupid</label>
+
+       <label for="description">Tell us more about your pet  <textarea id="description" name="description">
+        
+       </textarea></label>
+
+       <button type="submit" id="submit">Send</button>
+</form>
+</body>
+</html>
