@@ -1,0 +1,15 @@
+#image {
+    width: max-width;
+  height: max-height;
+  max-width: 100%;
+  margin: auto; /* use this to center an element automatticly within its parent element */
+  }
+  
+img{
+    display: block;
+    
+  }
+/* #img-div{
+    display: flex;
+    justify-content: center;
+} */
